@@ -1,0 +1,99 @@
+
+input[type='file'] {
+    height: 15px;
+    background: #fdfdfd;
+    border: 1px solid rgba(228, 228, 228, 1);
+    border-radius: 5px;
+    color: hsl(0, 0%, 15%);
+    font-size: 5px;
+    text-align: center;
+    outline: 0;
+    pointer-events: none;
+}
+
+input[type='file']::-webkit-file-upload-button {
+    height: 15px;
+    cursor: pointer;
+    background: #d02d29;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #fdfdfd;
+    font-size: 15px;
+    text-align: center;
+    outline: 0;
+    pointer-events: all;
+}
+
+input[type='file']::-webkit-file-upload-button:hover {
+    background: #d02c29d8;
+}
+
+input[type='file']::-webkit-file-upload-button:hover {
+    outline: 0;
+}
+
+input[type='file']:hover {
+    outline: 0;
+}
+
+[type="file"] {
+    height: 0;
+    overflow: hidden;
+    width: 0;
+    visibility: hidden;
+}
+
+[type="file"]+label {
+    background: #d02d29;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: 600;
+    outline: none;
+    position: relative;
+    transition: all 0.3s;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+[type="file"]+label:hover {
+    background-color: #bb2825;
+}
+
+.btnuppage {
+    background: #d02d29;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: 600;
+    outline: none;
+    position: relative;
+    transition: all 0.3s;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+
+.btnuppage:hover {
+    background: #bb2825;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.btnuppage:disabled{
+    background: #d6d6d6;
+    color: #bbbbbb;
+    cursor: not-allowed;
+}

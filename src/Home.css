@@ -1,0 +1,29 @@
+.smallcol{
+    float: left;
+    width: 15%;
+    min-width: 190px;
+    text-align: center;
+}
+
+.bigcol{
+    float: left;
+    height: 100vh;
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.grid-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+  }
+
+.page{
+    background-color: #282c34;
+    width: 100%;
+    min-height: 100vh;
+}
